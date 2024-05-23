@@ -3,6 +3,12 @@
 	"name": "gemini-simple-history-access",
 	"description": "Simple extension that provides access to Gemini's history via arrow keys.",
 	"version": "0.1.0",
+	"icon": {
+		"16": "src/assets/icon@16.png",
+		"48": "src/assets/icon@48.png",
+		"128": "src/assets/icon@128.png",
+		"192": "src/assets/icon.png"
+	},
 	"background": {
 		"service_worker": "src/background.ts"
 	},
