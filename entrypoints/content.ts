@@ -1,6 +1,8 @@
+import { geminiContentScript } from "@/components/geminiContentScript";
+
 export default defineContentScript({
-	matches: ["*://*.google.com/*"],
+	matches: ["*://gemini.google.com/app*"],
 	main() {
-		console.log("Hello content.");
+		geminiContentScript(document);
 	},
 });
